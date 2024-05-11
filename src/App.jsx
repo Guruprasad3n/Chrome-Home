@@ -7,8 +7,8 @@ import Heading from "./components/MainHeding/Heading";
 import Menu from "./components/Menu/Menu";
 import Carousel from "./components/Carousel/Carousel";
 import FastTitle from "./components/FastTitle/FastTitle";
-import Carousel2 from "./components/Carousel2/Carousel2";
 import Update from "./components/Updatepart/Update";
+import BottomCarousel from "./components/Carousel2/BottomCarousel";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -29,7 +29,7 @@ function App() {
       <Carousel y={y} />
       <Update />
       <FastTitle />
-      <Carousel2 y={y} />
+      <BottomCarousel y={y} />
     </>
   );
 }
