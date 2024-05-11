@@ -17,7 +17,7 @@ const Heading = () => {
 
   return (
     <div className={style.container}>
-      <img src='https://www.google.com/chrome/static/images/chrome-logo-m100.svg' width={'50px'} alt='chrome' />
+      <img src='https://www.google.com/chrome/static/images/chrome-logo-m100.svg' width={'100px'} alt='chrome' />
       <h1>The browser<br />built to be yours</h1>
     </div>
   );
