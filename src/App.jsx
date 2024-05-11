@@ -8,7 +8,7 @@ import Menu from "./components/Menu/Menu";
 import Carousel from "./components/Carousel/Carousel";
 import FastTitle from "./components/FastTitle/FastTitle";
 import Update from "./components/Updatepart/Update";
-import BottomCarousel from "./components/Carousel2/BottomCarousel";
+import BottomCarousel from "./components/BottomCarousel/BottomCarousel";
 
 function App() {
   const [count, setCount] = useState(0);
